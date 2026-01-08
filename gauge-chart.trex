@@ -7,7 +7,7 @@
     <author name="Your Name" email="your.email@example.com" organization="Your Organization" website="https://yourwebsite.com"/>
     <min-api-version>1.4</min-api-version>
     <source-location>
-      <url>http://localhost:8080/gauge-chart.html</url>
+      <url>https://diegobz1712.github.io/gauge-extension/gauge-chart.html</url>
     </source-location>
     <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlJREFUOI2dk0FKA0EQRd+fGY0gCCLuXLkTL+ABvIB4Bg/gAVy5c+PSpQvBhSAuBEWJgmIyM+lKFxN7xpmZhYEmuqv+r6+rq1sAqCqquD/nAKgqImKMiEBEZJJRZuaWiGCMISJYawFQVZRSiAjWWlQVVUVEUFWUUogIxhhEBGOMbxARrLUopVBVRARVRVURETez0NYaEZH/tLW1NW5ubgCo1+s0Gg2azSaPj4/Mzs4yMzNDo9Gg2WyyuLjI8vIy1WqVlZUVlpaWqFQq3N/fMz8/z9raGjs7O+zv73N7e8vV1RWXl5ecnZ1xenrK8fExx8dHHB0dcXh4yMHBAXt7e+zu7rKzs8P29jZbW1tsbm6ysbHB+vo66+vrrK2tsbq6ysrKCsvLyywsLDA/P8/c3Bytra2xtbVFq9ViY2ODRqNBvV6nXq9Tq9Wo1WpUq1Wq1SqVSoVKpcLMzAyTk5M/5gfdaSQBmVIiAAAAAElFTkSuQmCC</icon>
     <permissions>
@@ -19,4 +19,5 @@
       <text locale="en_US">Gauge Chart Viz Extension</text>
     </resource>
   </resources>
+
 </manifest>
