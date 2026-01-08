@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
-  <worksheet-extension id="com.tableau.extensions.gaugechart" extension-version="1.0.0">
+  <viz-extension id="com.diegobz.gaugechart" extension-version="1.0.0">
     <default-locale>en_US</default-locale>
     <name resource-id="name"/>
-    <description>Gauge Chart Viz Extension</description>
-    <author name="Your Name" email="your.email@example.com" organization="Your Organization" website="https://yourwebsite.com"/>
-    <min-api-version>1.4</min-api-version>
+    <description>Gauge Chart Custom Viz Extension</description>
+    <author name="Diego BZ" email="tu.email@ejemplo.com" organization="Personal" website="https://diegobz1712.github.io/"/>
+    <min-api-version>1.11</min-api-version>
+    
     <source-location>
       <url>https://diegobz1712.github.io/gauge-extension/gauge-chart.html</url>
     </source-location>
-    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlJREFUOI2dk0FKA0EQRd+fGY0gCCLuXLkTL+ABvIB4Bg/gAVy5c+PSpQvBhSAuBEWJgmIyM+lKFxN7xpmZhYEmuqv+r6+rq1sAqCqquD/nAKgqImKMiEBEZJJRZuaWiGCMISJYawFQVZRSiAjWWlQVVUVEUFWUUogIxhhEBGOMbxARrLUopVBVRARVRVURETez0NYaEZH/tLW1NW5ubgCo1+s0Gg2azSaPj4/Mzs4yMzNDo9Gg2WyyuLjI8vIy1WqVlZUVlpaWqFQq3N/fMz8/z9raGjs7O+zv73N7e8vV1RWXl5ecnZ1xenrK8fExx8dHHB0dcXh4yMHBAXt7e+zu7rKzs8P29jZbW1tsbm6ysbHB+vo66+vrrK2tsbq6ysrKCsvLyywsLDA/P8/c3Bytra2xtbVFq9ViY2ODRqNBvV6nXq9Tq9Wo1WpUq1Wq1SqVSoVKpcLMzAyTk5M/5gfdaSQBmVIiAAAAAElFTkSuQmCC</icon>
+    
+    <icon></icon>
+    
     <permissions>
       <permission>full data</permission>
     </permissions>
-  </worksheet-extension>
+
+    <capabilities>
+      <visual-elements>
+        <shelf name="measure" type="measure" max-count="1" />
+        <shelf name="target" type="measure" max-count="1" />
+      </visual-elements>
+    </capabilities>
+    
+  </viz-extension>
+  
   <resources>
     <resource id="name">
-      <text locale="en_US">Gauge Chart Viz Extension</text>
+      <text locale="en_US">My Custom Gauge</text>
     </resource>
   </resources>
-
 </manifest>
